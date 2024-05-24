@@ -1,0 +1,12 @@
+   0 nano /opt/250324_evening/IrinaKis/taskIRINA1.sh
+   1 chmod 744 /opt/250324_evening/IrinaKis/taskIRINA1.sh
+   2 ls -l /opt/250324_evening/IrinaKis
+   3 cd /opt/250324_evening/IrinaKis
+   4 ./taskIRINA1.sh
+   5 crontab -e
+   6 chmod u+x logs1.log
+   7 cat logs1.log
+   8 mkdir -p /opt/250324_evening/IrinaKis/hwarchive
+   9 tar -czf /opt/250324_evening/IrinaKis/hwarchive.tar.gz *.txt
+
+
